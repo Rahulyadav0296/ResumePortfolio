@@ -3,7 +3,7 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Button, Modal } from "@mui/material";
 import React, { useState } from "react";
-import Map from "./Map";
+
 
 function Contact() {
   const [user, setUser] = useState({
