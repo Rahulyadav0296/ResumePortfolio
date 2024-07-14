@@ -76,9 +76,7 @@ function Contact() {
             <h1 className="text-xl font-bold">Email</h1>
             <span className="text-lg">rahulyadav0296@gmail.com</span>
           </div>
-          <div>
-            <Map className="w-full h-64" /> {/* Adjust height as needed */}
-          </div>
+         
         </div>
         <div className="md:w-1/2 p-4">
           <form onSubmit={handleSubmit} className="space-y-4">
