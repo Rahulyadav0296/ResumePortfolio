@@ -3,7 +3,6 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Button, Modal } from "@mui/material";
 import React, { useState } from "react";
-import Map from "./Map";
 
 function Contact() {
   const [user, setUser] = useState({
@@ -75,9 +74,6 @@ function Contact() {
             <EmailIcon className="text-3xl mb-2" />
             <h1 className="text-xl font-bold">Email</h1>
             <span className="text-lg">rahulyadav0296@gmail.com</span>
-          </div>
-          <div>
-            <Map className="w-full h-64" /> {/* Adjust height as needed */}
           </div>
         </div>
         <div className="md:w-1/2 p-4">
